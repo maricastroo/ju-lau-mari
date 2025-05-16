@@ -4,7 +4,7 @@ Projeto acadêmico voltado para a área do **Direito**, com foco em **Constituci
 
 O site possui duas funcionalidades principais:
 
-- **Blog:** Publicações sobre direitos digitais, cidadania e Constituição, com linguagem acessível para adolescentes.
+- **Blog:** Publicações sobre direito.
 - **Jogo Educativo:** Mini game para incentivar o interesse dos jovens na área do Direito de forma lúdica e interativa.
 
 ## Objetivo
@@ -23,7 +23,7 @@ Fomentar o engajamento de adolescentes com temas jurídicos contemporâneos usan
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repo.git
+   git clone https://github.com/maricastroo/ju-lau-mari
     ```
 
 2. Instale as dependências:
