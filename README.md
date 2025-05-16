@@ -23,7 +23,7 @@ Fomentar o engajamento de adolescentes com temas jurídicos contemporâneos usan
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/maricastroo/ju-lau-mari
+   git clone https://github.com/maricastroo/ju-lau-mari.git
     ```
 
 2. Instale as dependências:
