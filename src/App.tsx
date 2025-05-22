@@ -14,6 +14,7 @@ export default function App() {
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/jogo" element={<JogoMenu />} />
         <Route path="/jogar" element={<Jogar />} />
+
       </Routes>
     </>
   );
