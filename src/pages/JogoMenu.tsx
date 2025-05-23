@@ -6,8 +6,8 @@ export default function JogoMenu() {
 
       {/* parte para ajuste */}
       <section className="relative overflow-hidden
-            flex items-center /* Adicionado: Centraliza o conteúdo verticalmente com flexbox */
-            pt-28 pb-24 /* Mantido: padding-top para compensar o header, padding-bottom para controlar a altura */
+            flex items-center
+            pt-28 pb-24
             bg-gradient-to-br from-blue-700 to-indigo-900 text-white shadow-lg">
         {/* backgroundzinho */}
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-indigo-800/20 backdrop-blur-sm z-0"></div>
@@ -21,7 +21,7 @@ export default function JogoMenu() {
             to="/jogar"
             className="inline-block px-10 py-4 rounded-full text-white font-bold text-lg bg-gradient-to-r from-teal-400 to-blue-500 shadow-xl
               hover:from-teal-500 hover:to-blue-600 transition transform hover:-translate-y-1 active:translate-y-0
-              focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-opacity-70 group overflow-hidden"
+              focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-opacity-70 group overflow-hidden mt-8"
           >
             Jogue Agora
             {/* efeito ao passar o mouse*/}
@@ -97,7 +97,7 @@ export default function JogoMenu() {
         >
           Comece a Jogar Agora!
           <span className="absolute inset-0 block bg-gradient-to-r from-white to-transparent opacity-0 transform -skew-x-12 -translate-x-full
-                               group-hover:opacity-30 group-hover:translate-x-full transition-all duration-700 ease-out"></span>
+                           group-hover:opacity-30 group-hover:translate-x-full transition-all duration-700 ease-out"></span>
         </Link>
       </section>
 
