@@ -1,25 +1,5 @@
 import { Link } from 'react-router-dom';
-
-const cardsData = [
-  {
-    id: 1,
-    title: 'Constitucionalismo 1',
-    summary: 'pipi popo.',
-    imageUrl: '/imagens/imagemTeste.png',
-  },
-  {
-    id: 2,
-    title: 'Constitucionalismo 2',
-    summary: 'pipi popo 2',
-    imageUrl: '/imagens/imagemTeste.png',
-  },
-  {
-    id: 3,
-    title: 'Constitucionalismo 3',
-    summary: 'Rpipi popo 3',
-    imageUrl: '/imagens/imagemTeste.png',
-  },
-];
+import { cardsData } from '../data/cardsData';
 
 export default function ParaLeitura() {
   return (
@@ -58,12 +38,12 @@ export default function ParaLeitura() {
               <h3 className="text-xl font-bold mb-3 text-blue-800 leading-snug">{title}</h3>
               <p className="text-gray-700 text-base leading-relaxed flex-grow">{summary}</p>
 
-              <button
-                disabled
-                className="mt-6 inline-block text-blue-600 font-semibold cursor-not-allowed opacity-60 hover:text-blue-700 transition-colors duration-300"
+              <Link
+                to={`/card/${id}`}
+                className="mt-6 inline-block text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300"
               >
                 Leia mais
-              </button>
+              </Link>
             </div>
           </div>
         ))}
