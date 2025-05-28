@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import JogoMenu from './pages/JogoMenu';
 import Jogar from './pages/Jogar';
+import CardDetailPage from './pages/cardDetail';
 
 export default function App() {
   return (
@@ -11,10 +12,10 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/card/:id" element={<CardDetailPage />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/jogo" element={<JogoMenu />} />
         <Route path="/jogar" element={<Jogar />} />
-
       </Routes>
     </>
   );

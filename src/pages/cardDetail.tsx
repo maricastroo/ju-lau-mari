@@ -5,7 +5,7 @@ import { cardsData } from '../data/cardsData';
 export default function CardDetailPage() {
   const { id } = useParams();
 
-  const cardId = parseInt(id ?? '', 10);
+  const cardId = parseInt(id || '', 10);
 
   const card = cardsData.find(c => c.id === cardId);
 
@@ -20,7 +20,6 @@ export default function CardDetailPage() {
   return (
     <section className="max-w-4xl mx-auto px-8 py-16 bg-white pt-40">
       <img
-        src={card.imageUrl}
         alt={card.title}
         className="w-full h-80 object-cover rounded-lg mb-8 shadow-md"
       />
