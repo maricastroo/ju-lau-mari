@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import PerguntaBox from '../Components/PerguntaBox';
 import OpcaoBox from '../Components/OpcaoBox';
 import ExplicacaoModal from '../Components/ExplicacaoModal';
 import { Link } from 'react-router-dom'; 
 import { quizData } from '../data/quizData'; 
+import TelaNome from '../Components/TelaNome';
 
 export default function Jogar() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -14,6 +15,8 @@ export default function Jogar() {
   const [showNextQuestionButton, setShowNextQuestionButton] = useState(false);
   const [score, setScore] = useState(0);
   const [quizFinished, setQuizFinished] = useState(false);
+  const [playerName, setPlayerName] = useState('');
+  const [showNameModal, setShowNameModal] = useState(true);
 
   const currentQuestion = quizData[currentQuestionIndex];
 
@@ -56,6 +59,20 @@ export default function Jogar() {
     }
   };
 
+  useEffect(() => {
+    if (localStorage.getItem('playerName')){
+      const storedName = localStorage.getItem('playerName');
+      setPlayerName(storedName   ? storedName : '');
+      setShowNameModal(false);
+    }
+  })
+
+    const handleStartGame = (name: string) => {
+    setPlayerName(name);
+    setShowNameModal(false);
+  };
+
+
   if (!currentQuestion && !quizFinished) {
     return <div className="min-h-screen flex items-center justify-center bg-gray-50 text-xl font-semibold text-gray-700">Carregando quiz...</div>;
   }
@@ -87,6 +104,8 @@ export default function Jogar() {
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
 
+      {showNameModal && <TelaNome onStart={handleStartGame} />}
+
       <section className="relative overflow-hidden flex items-center pt-28 pb-24 bg-gradient-to-br from-blue-700 to-indigo-900 text-white shadow-lg">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-indigo-800/20 backdrop-blur-sm z-0"></div>
 
@@ -99,6 +118,21 @@ export default function Jogar() {
       </section>
 
       <section className="max-w-4xl mx-auto px-8 mt-16 md:mt-24">
+        { playerName && (
+          <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">
+            Jogador <span className="text-blue-600">{playerName} </span>! 
+            <br></br>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 mb-8">
+            <div 
+              className="bg-blue-600 h-2.5 rounded-full mt-2" 
+              style={{ width: `${((currentQuestionIndex + 1) / quizData.length) * 100}%` }}
+            ></div>
+            </div>
+            Pergunta <span className="font-bold">{currentQuestionIndex + 1}</span> de <span className="font-bold">{quizData.length}</span>
+          </h2>
+      
+          ) 
+        }
         <div className="bg-gradient-to-br from-blue-600 to-indigo-800 rounded-2xl shadow-2xl p-8 w-full flex flex-col items-center">
           <div className="mb-8 w-full flex justify-center">
             <PerguntaBox caso={currentQuestion.caso} />

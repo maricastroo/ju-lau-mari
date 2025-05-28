@@ -20,32 +20,27 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-8 py-5 relative z-10">
         {/* nome site */}
         <Link to="/" className="text-4xl font-extrabold tracking-tight text-white hover:text-blue-100 transition-colors duration-300 flex items-center gap-2">
-          <span className="leading-none">nome site</span>
+          <span className="leading-none">Feed fundamental</span>
         </Link>
 
-        {/* hamburger que aparece só em telas menores */}
         <div className="md:hidden"> 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="text-white focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-md p-2"
-            aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"} // Acessibilidade
+            aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"} 
           >
             {isMenuOpen ? (
-              // x para menu aberto (fecha ele)
+
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             ) : (
-              // hamburguer para menu fechado (abre ele)
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             )}
           </button>
         </div>
-
-        {/* menuzinho*/}
-        {/* 'hidden' por padrão (mobile), 'flex' a partir de 'md' (desktop) */}
         <nav className="hidden md:flex items-center space-x-9">
           {navLinks.map((link) => (
             <Link
@@ -96,8 +91,7 @@ export default function Header() {
           ))}
           <Link
             to="/jogar"
-            className="inline-block px-8 py-3 rounded-full text-white font-bold text-lg bg-gradient-to-r from-cyan-400 to-blue-500 shadow-md
-                      hover:from-cyan-500 hover:to-blue-600 transition mt-4"
+            className="inline-block px-8 py-3 rounded-full text-white font-bold text-lg bg-gradient-to-r from-cyan-400 to-blue-500 shadow-md hover:from-cyan-500 hover:to-blue-600 transition mt-4"
             onClick={() => setIsMenuOpen(false)} //menu é fechado ao clicar no botão
           >
             Jogar Agora
