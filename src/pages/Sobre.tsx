@@ -15,7 +15,7 @@ export default function Sobre() {
         <div className="max-w-4xl mx-auto px-8 text-center relative z-10"> 
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6 animate-fade-in-up">
             Sobre o <span className="text-cyan-300">Projeto</span>
-            <br />Constitucionalismo Digital
+            <br />Pondera Legal
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 font-light mb-8 opacity-0 animate-fade-in delay-200">
             Explore a essência e os pilares que guiam nossa iniciativa.

@@ -14,7 +14,7 @@ export default function JogoMenu() {
 
         <div className="max-w-4xl mx-auto px-8 text-center relative z-10">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6 animate-fade-in-up">
-            titulo <span className="text-cyan-300">impactante</span>
+            Choque <span className="text-cyan-300">Jurídico</span>
             <br />
           </h1>
           <Link
