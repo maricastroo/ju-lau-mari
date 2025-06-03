@@ -87,7 +87,7 @@ export default function JogoMenu() {
           Pronto para se tornar um especialista em constitucionalismo?
         </h2>
         <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-          venha jogar e teste seus conhecimentos e blablabla
+          venha jogar e teste seus conhecimentos com o jogo Choque Jurídico !
         </p>
         <Link
           to="/jogar"
