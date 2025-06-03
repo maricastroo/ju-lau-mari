@@ -6,6 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'azul-primario': '#245361',
+        'tasman': '#ccd8cf',
+        'camelot': '#853951',
+        'roti': '#c1a23b'
+      },
+
     },
   },
   plugins: [],

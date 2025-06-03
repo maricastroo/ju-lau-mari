@@ -19,10 +19,6 @@ export default function CardDetailPage() {
 
   return (
     <section className="max-w-4xl mx-auto px-8 py-16 bg-white pt-40">
-      <img
-        alt={card.title}
-        className="w-full h-80 object-cover rounded-lg mb-8 shadow-md"
-      />
       <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-blue-900 leading-tight">
         {card.title}
       </h1>

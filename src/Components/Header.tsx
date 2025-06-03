@@ -3,24 +3,24 @@ import { useState } from 'react';
 
 export default function Header() {
   const location = useLocation();
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // para o menu mobile
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
     { name: 'Blog', path: '/' },
-    { name: 'Sobre', path: '/sobre' },
+    { name: 'Quem somos', path: '/sobre' },
     { name: 'Sobre o Jogo', path: '/jogo' },
   ];
 
   return (
     // header fixo no topo da página
-    <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-br from-blue-700 via-blue-800 to-indigo-900 text-white shadow-2xl">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-br from-blue-400 via-blue-800 to-indigo-900 text-white shadow-2xl">
       {/* background */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-indigo-800/20 backdrop-blur-sm z-0"></div>
 
       <div className="max-w-7xl mx-auto flex items-center justify-between px-8 py-5 relative z-10">
         {/* nome site */}
         <Link to="/" className="text-4xl font-extrabold tracking-tight text-white hover:text-blue-100 transition-colors duration-300 flex items-center gap-2">
-          <span className="leading-none">Feed fundamental</span>
+          <span className="leading-none">Pondera Legal</span>
         </Link>
 
         <div className="md:hidden"> 

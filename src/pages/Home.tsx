@@ -7,12 +7,12 @@ export default function ParaLeitura() {
 
       {/* titulo principal */}
       <h1 className="text-5xl font-extrabold mb-4 text-blue-900 leading-tight">
-        Título do <span className="text-blue-600">tema</span>
+        Constituição <span className="text-blue-600">em Jogo</span>
       </h1>
 
       {/* Subtítulo */}
       <h2 className="text-xl md:text-2xl font-medium mb-12 text-gray-600">
-        Descrição do tema 
+        O projeto Pondera Legal foi criado para democratizar os direitos civis para adolescentes e jovens de forma gamificada.
       </h2>
 
       {/* Título da seção de leitura com destaque */}
