@@ -30,33 +30,70 @@ export default function Sobre() {
         </h2>
         <div className="prose prose-lg text-gray-700 leading-relaxed space-y-6">
           <p>
-            projeto blablabla de blablabla (adicionar texto correto aqui)
+            O projeto pondera legal foi idealizado pela estudante de <strong>Direto</strong> Laryssa Paiva e desenvolvido por Laura  e Mariana, estudantes de <strong>Sistemas de Informação e Ciência da Computação</strong> onde foram responsáveis por trazer de forma gameficada os casos sobre os direitos fundamentais garantidos pela Constituição, especialmente no contexto atual em que vivémos. 
           </p>
           <p>
-            continuação do texto sobre o projeto, explicando mais sobre a proposta e os objetivos.
+            Juntas, combinamos o rigor acadêmico com a inovação tecnológica para oferecer um jogo que não apenas informa, mas também instiga o raciocínio crítico e aprofunda o entendimento sobre o constitucionalismo digital e seus desafios.
           </p>
-          <p>
-            fique atento blabla
-          </p>
+        </div>
+      </section>
+      <section className="max-w-4xl mx-auto px-8 mt-16">
+        <h2 className="text-3xl font-bold text-gray-800 mb-8 border-b-2 border-blue-400 pb-3">
+          Nossa Equipe
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+            <img
+              src="/imagens/lary.png"
+              alt="Foto de Laryssa Paiva"
+              className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+            />
+            <h3 className="text-xl font-semibold text-gray-800 mb-1">Laryssa Paiva</h3>
+            <p className="text-blue-700 text-sm mb-2">Estudante de Direito</p>
+            <p className="text-gray-600">Idealizadora do Projeto</p>
+          </div>
+
+          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+            <img
+              src="/imagens/laura.png"
+              alt="Foto de Laura Santos"
+              className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+            />
+            <h3 className="text-xl font-semibold text-gray-800 mb-1">Laura Santos</h3>
+            <p className="text-blue-700 text-sm mb-2">Estudante de Sistemas de Informação</p>
+            <p className="text-gray-600">Desenvolvedora</p>
+          </div>
+
+          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+            <img
+              src="/imagens/mari.png" 
+              alt="Foto de Mariana"
+              className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+            />
+            <h3 className="text-xl font-semibold text-gray-800 mb-1">Mariana</h3>
+            <p className="text-blue-700 text-sm mb-2">Estudante de Ciência da Computação</p>
+            <p className="text-gray-600">Desenvolvedora</p>
+          </div>
         </div>
       </section>
 
       {/* principais objetivos do site*/}
       <section className="max-w-4xl mx-auto px-8 mt-16">
         <h2 className="text-3xl font-bold text-gray-800 mb-8 border-b-2 border-blue-400 pb-3">
-          principais objetivos
+          Principais objetivos
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-md border border-blue-100">
-            <h3 className="text-xl font-semibold text-blue-700 mb-2">direito</h3>
+            <h3 className="text-xl font-semibold text-blue-700 mb-2">Direito</h3>
             <p className="text-gray-600">
-              exemplo: Nosso objetivo é promover o conhecimento e a aplicação do direito
+              Nosso objetivo é <strong>estimular o raciocínio jurídico e a capacidade de análise de casos complexos</strong>, especialmente aqueles que envolvem a colisão de direitos.
+Conscientizar sobre os impactos da tecnologia nos direitos e liberdades individuais e coletivas, fomentando uma perspectiva crítica e ética.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md border border-blue-100">
             <h3 className="text-xl font-semibold text-blue-700 mb-2">tecnologia</h3>
             <p className="text-gray-600">
-              exemplo: alcançar o publico jovem atraves de jogos dinamicos
+              Gamificar e democratizar o acesso ao conhecimento jurídico, utilizando ferramentas digitais para tornar o aprendizado de conceitos complexos mais dinâmico, interativo e divertido. <strong>Explorando o potencial das inovações digitais para a educação</strong> e a conscientização cívica, mostrando como a tecnologia pode ser uma aliada na promoção da cidadania.
             </p>
           </div>
 
@@ -69,7 +106,7 @@ export default function Sobre() {
           Pronto para se tornar um especialista em constitucionalismo?
         </h2>
         <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-          venha jogar e teste seus conhecimentos e blablabla
+          venha jogar e teste seus conhecimentos com o jogo Choque Jurídico !
         </p>
         <Link
           to="/jogar"
