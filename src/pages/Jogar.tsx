@@ -28,7 +28,7 @@ export default function Jogar() {
       if(index !== currentQuestion.respostaCorretaIndex){
         setShowExplanationButton(true);
       } else {
-        setShowExplanationButton(false);
+        setShowExplanationButton(true);
       }
       setShowNextQuestionButton(true);
        if (index === currentQuestion.respostaCorretaIndex) {

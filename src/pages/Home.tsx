@@ -12,7 +12,7 @@ export default function ParaLeitura() {
 
       {/* Subtítulo */}
       <h2 className="text-xl md:text-2xl font-medium mb-12 text-gray-600">
-        O projeto Pondera Legal foi criado para democratizar os direitos civis para adolescentes e jovens de forma gamificada.
+        Aprenda sobre os seus direitos e salve a Democracia
       </h2>
 
       {/* Título da seção de leitura com destaque */}
@@ -30,7 +30,7 @@ export default function ParaLeitura() {
               <img
                 src={imageUrl}
                 alt={title}
-                className="w-full h-56 object-cover transform hover:scale-110 transition-transform duration-500 ease-in-out"
+                className="w-full h-60 object-cover transform hover:scale-110 transition-transform duration-500 ease-in-out"
               />
             </div>
 

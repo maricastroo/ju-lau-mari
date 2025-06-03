@@ -34,7 +34,7 @@ export default function JogoMenu() {
       {/* explicando mais sobre o jogo*/}
       <section className="max-w-5xl mx-auto px-8 mt-16 md:mt-24">
         <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">
-          Menicânica do jogo, como jogar?
+          Os Direitos Fundamentais
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -42,40 +42,34 @@ export default function JogoMenu() {
           <div className="bg-white p-8 rounded-xl shadow-lg border border-blue-100 transform hover:scale-105 transition-transform duration-300 flex flex-col items-center text-center">
             <div className="text-blue-600 mb-4">
               {/* ícone do font awesome */}
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 mx-auto" viewBox="0 0 576 512">
-                <path fill="currentColor" d="M64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l176 0-10.7 32L160 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l256 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-69.3 0L336 416l176 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM512 64l0 224L64 288 64 64l448 0z"/>
-              </svg>
+
             </div>
             {/* primeiro passo */}
-            <h3 className="text-xl font-bold text-blue-800 mb-3">1. Receba um caso</h3>
+            <h3 className="text-xl font-bold text-blue-800 mb-3">1.</h3>
             <p className="text-gray-700 leading-relaxed flex-grow">
-              Cada rodada apresenta um cenário prático. e blabla blablabla
+             Devem ser garantidos na maior medida possível
             </p>
           </div>
 
           <div className="bg-white p-8 rounded-xl shadow-lg border border-blue-100 transform hover:scale-105 transition-transform duration-300 flex flex-col items-center text-center">
             <div className="text-blue-600 mb-4">
               {/* ícone do font awesome */}
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 mx-auto" viewBox="0 0 512 512">
-                <path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/>
-              </svg>
+
             </div>
-            <h3 className="text-xl font-bold text-blue-800 mb-3">2. Analise as opções</h3>
+            <h3 className="text-xl font-bold text-blue-800 mb-3">2.</h3>
             <p className="text-gray-700 leading-relaxed flex-grow">
-              Diante do caso, você terá diversas alternativas.
+             Não são absolutos
             </p>
           </div>
 
           <div className="bg-white p-8 rounded-xl shadow-lg border border-blue-100 transform hover:scale-105 transition-transform duration-300 flex flex-col items-center text-center">
             <div className="text-blue-600 mb-4">
               {/* ícone do font awesome */}
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 mx-auto" viewBox="0 0 384 512">
-                <path fill="currentColor" d="M280 64l40 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 128C0 92.7 28.7 64 64 64l40 0 9.6 0C121 27.5 153.3 0 192 0s71 27.5 78.4 64l9.6 0zM64 112c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16l-16 0 0 24c0 13.3-10.7 24-24 24l-88 0-88 0c-13.3 0-24-10.7-24-24l0-24-16 0zm128-8a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"/>
-              </svg>
+
             </div>
-            <h3 className="text-xl font-bold text-blue-800 mb-3">3. Explicação da alternativa</h3>
+            <h3 className="text-xl font-bold text-blue-800 mb-3">3.</h3>
             <p className="text-gray-700 leading-relaxed flex-grow">
-              Após sua decisão, receba uma explicação detalhada sobre a resposta correta.
+              Podem colidir
             </p>
           </div>
         </div>
@@ -84,10 +78,12 @@ export default function JogoMenu() {
       {/* Seção de Chamada para Ação Final */}
       <section className="text-center mt-20 px-8">
         <h2 className="text-3xl font-bold text-gray-800 mb-6">
-          Pronto para se tornar um especialista em constitucionalismo?
+          Assim, seu objetivo é descobrir quais direitos estão em conflito.
         </h2>
         <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-          venha jogar e teste seus conhecimentos com o jogo Choque Jurídico !
+          Para isso, você receberá um caso real e identificará quais bens jurídicos estão em conflito. 
+        Após cada resposta haverá a explicação da decisão e seus pontos serão acumulados 
+
         </p>
         <Link
           to="/jogar"

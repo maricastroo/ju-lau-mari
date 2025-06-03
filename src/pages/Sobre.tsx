@@ -26,14 +26,17 @@ export default function Sobre() {
       {/* seção principal*/}
       <section className="max-w-4xl mx-auto px-8 mt-16 md:mt-24">
         <h2 className="text-3xl font-bold text-gray-800 mb-8 border-b-2 border-blue-400 pb-3">
-          Descrição sobre o projeto
+          Sobre o projeto
         </h2>
         <div className="prose prose-lg text-gray-700 leading-relaxed space-y-6">
           <p>
-            O projeto pondera legal foi idealizado pela estudante de <strong>Direto</strong> Laryssa Paiva e desenvolvido por Laura  e Mariana, estudantes de <strong>Sistemas de Informação e Ciência da Computação</strong> onde foram responsáveis por trazer de forma gameficada os casos sobre os direitos fundamentais garantidos pela Constituição, especialmente no contexto atual em que vivémos. 
+            O site Pondera Legal foi idealizado pela estudante de <strong>Direto</strong> Laryssa Paiva e desenvolvido por Laura  e Mariana, estudantes de <strong>Sistemas de Informação e Ciência da Computação</strong> que ficaram responsáveis por “gameficar” os casos jurídicos. 
           </p>
           <p>
-            Juntas, combinamos o rigor acadêmico com a inovação tecnológica para oferecer um jogo que não apenas informa, mas também instiga o raciocínio crítico e aprofunda o entendimento sobre o constitucionalismo digital e seus desafios.
+            A ideia surgiu a partir de uma atividade em grupo proposta pelo professor de Direito da PUCPR, Bruno Menezes Lorenzetto, sobre Constitucionalismo Digital. Nessa atividade, as acadêmicas Carolina Castro, Carolina Teixeira, Kauana Pozzo, Laryssa Paiva, Marianne Leite e Michaela Moro elaboraram uma cartilha sobre os impactos das novas tecnologias nos direitos fundamentais.
+          </p>
+          <p>
+            Pensando em maneiras criativas para despertar o interesse do público-alvo, adolescentes e jovens, o projeto foi arquitetado. Laryssa contatou as programadoras e juntas, combinaram o rigor acadêmico com a inovação tecnológica para oferecer um jogo que não apenas informa, mas também instiga o raciocínio crítico e aprofunda o entendimento sobre o constitucionalismo digital e seus desafios.
           </p>
         </div>
       </section>
@@ -49,7 +52,29 @@ export default function Sobre() {
               className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-1">Laryssa Paiva</h3>
-            <p className="text-blue-700 text-sm mb-2">Estudante de Direito</p>
+            <p className="text-blue-700 text-sm mb-2">Acadêmica de Direito</p>
+            <p className="text-gray-600">Idealizadora do Projeto</p>
+          </div>
+
+          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+            <img
+              src="/imagens/marianne.jpg"
+              alt="Foto de Marianne Leite"
+              className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+            />
+            <h3 className="text-xl font-semibold text-gray-800 mb-1">Marianne Leite</h3>
+            <p className="text-blue-700 text-sm mb-2">Acadêmica de Direito</p>
+            <p className="text-gray-600">Idealizadora do Projeto</p>
+          </div>
+
+          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+            <img
+              src="/imagens/carolina.jpg"
+              alt="Foto de Carolina Castro"
+              className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+            />
+            <h3 className="text-xl font-semibold text-gray-800 mb-1">Carolina Castro</h3>
+            <p className="text-blue-700 text-sm mb-2">Acadêmica de Direito</p>
             <p className="text-gray-600">Idealizadora do Projeto</p>
           </div>
 
@@ -60,7 +85,7 @@ export default function Sobre() {
               className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-1">Laura Santos</h3>
-            <p className="text-blue-700 text-sm mb-2">Estudante de Sistemas de Informação</p>
+            <p className="text-blue-700 text-sm mb-2">Acadêmica de Sistemas de Informação</p>
             <p className="text-gray-600">Desenvolvedora</p>
           </div>
 
@@ -70,8 +95,8 @@ export default function Sobre() {
               alt="Foto de Mariana"
               className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
             />
-            <h3 className="text-xl font-semibold text-gray-800 mb-1">Mariana</h3>
-            <p className="text-blue-700 text-sm mb-2">Estudante de Ciência da Computação</p>
+            <h3 className="text-xl font-semibold text-gray-800 mb-1">Mariana Castro</h3>
+            <p className="text-blue-700 text-sm mb-2">Acadêmica de Ciência da Computação</p>
             <p className="text-gray-600">Desenvolvedora</p>
           </div>
         </div>
@@ -86,12 +111,12 @@ export default function Sobre() {
           <div className="bg-white p-6 rounded-lg shadow-md border border-blue-100">
             <h3 className="text-xl font-semibold text-blue-700 mb-2">Direito</h3>
             <p className="text-gray-600">
-              Nosso objetivo é <strong>estimular o raciocínio jurídico e a capacidade de análise de casos complexos</strong>, especialmente aqueles que envolvem a colisão de direitos.
-Conscientizar sobre os impactos da tecnologia nos direitos e liberdades individuais e coletivas, fomentando uma perspectiva crítica e ética.
+              Nosso objetivo é <strong>estimular o raciocínio jurídico e a capacidade de análise de casos complexos</strong>, especialmente aqueles envolvendo a colisão de direitos fundamentais.
+              Além de conscientizar sobre os impactos da tecnologia nos direitos individuais, coletivos e difusos, fomentando uma perspectiva crítica e ética.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md border border-blue-100">
-            <h3 className="text-xl font-semibold text-blue-700 mb-2">tecnologia</h3>
+            <h3 className="text-xl font-semibold text-blue-700 mb-2">Tecnologia</h3>
             <p className="text-gray-600">
               Gamificar e democratizar o acesso ao conhecimento jurídico, utilizando ferramentas digitais para tornar o aprendizado de conceitos complexos mais dinâmico, interativo e divertido. <strong>Explorando o potencial das inovações digitais para a educação</strong> e a conscientização cívica, mostrando como a tecnologia pode ser uma aliada na promoção da cidadania.
             </p>
@@ -103,10 +128,10 @@ Conscientizar sobre os impactos da tecnologia nos direitos e liberdades individu
       {/* seção de chamada */}
       <section className="text-center mt-20 px-8">
         <h2 className="text-3xl font-bold text-gray-800 mb-6">
-          Pronto para se tornar um especialista em constitucionalismo?
+          Pronto para se tornar um Especialista em Direito Constitucional?
         </h2>
         <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-          venha jogar e teste seus conhecimentos com o jogo Choque Jurídico !
+          Jogue e teste seus conhecimentos com o Choque Jurídico ⚡
         </p>
         <Link
           to="/jogar"
