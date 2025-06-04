@@ -19,10 +19,10 @@ No "Choque Jurídico", você é desafiado a analisar casos práticos reais e a t
 
 ## 🚀 Tecnologias Utilizadas
 
-* **Frontend:** React, JavaScript
+* **Frontend:** React, TypeScript
 * **Estilização:** Tailwind CSS
 * **Roteamento:** React Router DOM (ou similar, dependendo da sua implementação)
-* **Dados:** Estruturas de dados JavaScript (como `cardsData`) para os casos do jogo.
+* **Dados:** Estruturas de dados TypeScript (como `cardsData`) para os casos do jogo.
 
 ## ⚙️ Como Executar o Projeto Localmente
 
