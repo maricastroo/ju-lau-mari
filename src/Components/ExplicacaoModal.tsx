@@ -27,7 +27,7 @@ export default function ExplicacaoModal({ explicacao, onClose, isVisible }: Expl
           onClick={onClose}
           className="w-full px-8 py-3 rounded-full text-white font-bold bg-blue-500 hover:bg-blue-600 shadow-lg transition transform hover:-translate-y-1 active:translate-y-0"
         >
-          fechar
+          Fechar
         </button>
       </div>
     </div>

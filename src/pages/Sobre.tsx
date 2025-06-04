@@ -44,62 +44,98 @@ export default function Sobre() {
         <h2 className="text-3xl font-bold text-gray-800 mb-8 border-b-2 border-blue-400 pb-3">
           Nossa Equipe
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
-            <img
-              src="/imagens/lary.png"
-              alt="Foto de Laryssa Paiva"
-              className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
-            />
-            <h3 className="text-xl font-semibold text-gray-800 mb-1">Laryssa Paiva</h3>
-            <p className="text-blue-700 text-sm mb-2">Acadêmica de Direito</p>
-            <p className="text-gray-600">Idealizadora do Projeto</p>
-          </div>
-
-          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
-            <img
-              src="/imagens/marianne.jpg"
-              alt="Foto de Marianne Leite"
-              className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
-            />
-            <h3 className="text-xl font-semibold text-gray-800 mb-1">Marianne Leite</h3>
-            <p className="text-blue-700 text-sm mb-2">Acadêmica de Direito</p>
-            <p className="text-gray-600">Idealizadora do Projeto</p>
-          </div>
-
-          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
-            <img
-              src="/imagens/carolina.jpg"
-              alt="Foto de Carolina Castro"
-              className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
-            />
-            <h3 className="text-xl font-semibold text-gray-800 mb-1">Carolina Castro</h3>
-            <p className="text-blue-700 text-sm mb-2">Acadêmica de Direito</p>
-            <p className="text-gray-600">Idealizadora do Projeto</p>
-          </div>
-
-          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
-            <img
-              src="/imagens/laura.png"
-              alt="Foto de Laura Santos"
-              className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
-            />
-            <h3 className="text-xl font-semibold text-gray-800 mb-1">Laura Santos</h3>
-            <p className="text-blue-700 text-sm mb-2">Acadêmica de Sistemas de Informação</p>
-            <p className="text-gray-600">Desenvolvedora</p>
-          </div>
-
-          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
-            <img
-              src="/imagens/mari.png" 
-              alt="Foto de Mariana"
-              className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
-            />
-            <h3 className="text-xl font-semibold text-gray-800 mb-1">Mariana Castro</h3>
-            <p className="text-blue-700 text-sm mb-2">Acadêmica de Ciência da Computação</p>
-            <p className="text-gray-600">Desenvolvedora</p>
-          </div>
+<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Os primeiros cards permanecem como estão, pois preenchem as colunas */}
+        <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+          <img
+            src="/imagens/lary.png"
+            alt="Foto de Laryssa Paiva"
+            className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+          />
+          <h3 className="text-xl font-semibold text-gray-800 mb-1">Laryssa Paiva</h3>
+          <p className="text-blue-700 text-sm mb-2">Acadêmica de Direito</p>
+          <p className="text-gray-600">Idealizadora do Projeto</p>
         </div>
+
+        <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+          <img
+            src="/imagens/laura.png"
+            alt="Foto de Laura Santos"
+            className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+          />
+          <h3 className="text-xl font-semibold text-gray-800 mb-1">Laura Santos</h3>
+          <p className="text-blue-700 text-sm mb-2">Acadêmica de Sistemas de Informação</p>
+          <p className="text-gray-600">Desenvolvedora</p>
+        </div>
+
+        <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+          <img
+            src="/imagens/mari.png"
+            alt="Foto de Mariana"
+            className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+          />
+          <h3 className="text-xl font-semibold text-gray-800 mb-1">Mariana Castro</h3>
+          <p className="text-blue-700 text-sm mb-2">Acadêmica de Ciência da Computação</p>
+          <p className="text-gray-600">Desenvolvedora</p>
+        </div>
+
+        <div className="md:col-span-3 flex justify-center flex-wrap gap-8">
+            <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+              <img
+                src="/imagens/marianne.jpg"
+                alt="Foto de Marianne Leite"
+                className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+              />
+              <h3 className="text-xl font-semibold text-gray-800 mb-1">Marianne Leite</h3>
+              <p className="text-blue-700 text-sm mb-2">Acadêmica de Direito</p>
+              <p className="text-gray-600">Coidealizadora do Projeto</p>
+            </div>
+
+            <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+              <img
+                src="/imagens/carolina.jpg"
+                alt="Foto de Carolina Castro"
+                className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+              />
+              <h3 className="text-xl font-semibold text-gray-800 mb-1">Carolina Castro</h3>
+              <p className="text-blue-700 text-sm mb-2">Acadêmica de Direito</p>
+              <p className="text-gray-600">Coidealizadora do Projeto</p>
+            </div>
+
+            <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+              <img
+                src="/imagens/michaela.jpg"
+                alt="Foto de Michaela Moro"
+                className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+              />
+              <h3 className="text-xl font-semibold text-gray-800 mb-1">Michaela Moro</h3>
+              <p className="text-blue-700 text-sm mb-2">Acadêmica de Direito</p>
+              <p className="text-gray-600">Coidealizadora do Projeto</p>
+            </div>
+
+            <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+              <img
+                src="/imagens/carolinaT.jpg"
+                alt="Foto de Carolina Teixeira"
+                className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+              />
+              <h3 className="text-xl font-semibold text-gray-800 mb-1">Carolina Teixeira</h3>
+              <p className="text-blue-700 text-sm mb-2">Acadêmica de Direito</p>
+              <p className="text-gray-600">Coidealizadora do Projeto</p>
+            </div>
+
+            <div className="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+              <img
+                src="/imagens/kauana.jpg"
+                alt="Foto de Kauana Pozzo"
+                className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-blue-200"
+              />
+              <h3 className="text-xl font-semibold text-gray-800 mb-1">Kauana Pozzo</h3>
+              <p className="text-blue-700 text-sm mb-2">Acadêmica de Direito</p>
+              <p className="text-gray-600">Coidealizadora do Projeto</p>
+            </div>
+        </div>
+      </div>
       </section>
 
       {/* principais objetivos do site*/}

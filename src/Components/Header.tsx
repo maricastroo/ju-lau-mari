@@ -7,7 +7,7 @@ export default function Header() {
 
   const navLinks = [
     { name: 'Blog', path: '/' },
-    { name: 'Quem somos', path: '/sobre' },
+    { name: 'Quem Somos', path: '/sobre' },
     { name: 'Sobre o Jogo', path: '/jogo' },
   ];
 
