@@ -1,4 +1,4 @@
-// src/components/ExplicacaoModal.tsx
+
 import React from 'react';
 
 interface ExplicacaoModalProps {
