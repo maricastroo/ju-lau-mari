@@ -1,7 +1,7 @@
 export const quizData = [
   {
     id: 1,
-    caso: "Durante a pandemia de covid-19 houve, por consequência da Medida Provisória nº 954, de 17 de abril de 2020, o compartilhamento de dados pessoais por empresas de telecomunicações com o IBGE. ", 
+    caso: "Durante a pandemia de covid-19 houve, por consequência da Medida Provisória nº 954, de 17 de abril de 2020, o compartilhamento de dados pessoais por empresas de telecomunicações com o IBGE. \nQuais são os direitos em conflito?", 
     
     opcoes: [
       "Sigilo de dados (privacidade) VS. Estatísticas (Informação)",
@@ -11,13 +11,13 @@ export const quizData = [
 
     ],
     respostaCorretaIndex: 0,
-    explicacao: "As operadoras telefônicas não poderiam ser obrigadas a compartilhar dados de usuários durante a pandemia de COVID-19, mesmo que para fins de suporte à produção estatística oficial durante a situação de emergência de saúde pública de importância internacional. Tal compartilhamento  deve ser limitado ao mínimo necessário para não violar o direito ao sigilo de dados, à intimidade, à vida privada, e à autodeterminação informativa. ",
+    explicacao: "As operadoras telefônicas não poderiam ser obrigadas a compartilhar dados de usuários durante a pandemia de COVID-19, mesmo que para fins de suporte à produção estatística oficial durante a situação de emergência de saúde pública de importância internacional. Tal compartilhamento  deve ser limitado ao mínimo necessário para não violar o direito ao sigilo de dados, à intimidade, à vida privada, e à autodeterminação informativa.",
   
   },
 
   {
     id: 2,
-    caso: "Caso Francischini: No dia das eleições de 2018, o então deputado federal Fernando Francischini (PSL-PR) realizou uma live alegando, sem provas, que urnas eletrônicas estavam fraudadas para impedir votos no candidato Jair Bolsonaro. O Tribunal Superior Eleitoral (TSE), em outubro de 2021, cassou o mandato de Francischini por uso indevido dos meios de comunicação e abuso de poder político, tornando-o inelegível por oito anos. Em junho de 2022, o ministro Kassio Nunes Marques, do STF, concedeu liminar suspendendo os efeitos da decisão do TSE, permitindo que Francischini retornasse ao cargo. Entretanto, poucos dias depois, a Segunda Turma do STF, por maioria de 3 votos a 2, restabeleceu a cassação e inelegibilidade do deputado.",
+    caso: "Caso Francischini: No dia das eleições de 2018, o então deputado federal Fernando Francischini (PSL-PR) realizou uma live alegando, sem provas, que urnas eletrônicas estavam fraudadas para impedir votos no candidato Jair Bolsonaro. O Tribunal Superior Eleitoral (TSE), em outubro de 2021, cassou o mandato de Francischini por uso indevido dos meios de comunicação e abuso de poder político, tornando-o inelegível por oito anos. Em junho de 2022, o ministro Kassio Nunes Marques, do STF, concedeu liminar suspendendo os efeitos da decisão do TSE, permitindo que Francischini retornasse ao cargo. Entretanto, poucos dias depois, a Segunda Turma do STF, por maioria de 3 votos a 2, restabeleceu a cassação e inelegibilidade do deputado. \nQuais são os direitos em conflito?",
     opcoes: [
       "Autonomia da vontade VS. Federalismo",
       "Liberdade de expressão VS. Integridade do processo eleitoral (proteção da democracia)",
@@ -30,20 +30,20 @@ export const quizData = [
 
   {
     id: 3,
-    caso: "Caso Luth (1958): Erich Lüth, jornalista, convocou publicamente um boicote ao filme de Veit Harlan, cineasta envolvido com o regime nazista. A produtora do filme moveu uma ação civil para impedir a campanha, alegando violação aos bons costumes (§ 826 do Código Civil Alemão).",
+    caso: "Caso Luth (1958): Erich Lüth, jornalista, convocou publicamente um boicote ao filme de Veit Harlan, cineasta envolvido com o regime nazista. A produtora do filme moveu uma ação civil para impedir a campanha, alegando violação aos bons costumes (§ 826 do Código Civil Alemão). \nQuais são os direitos em conflito?",
     opcoes: [
       "Direito ao boicote (liberdade de expressão) VS. Liberdade profissional e econômica",
       "Direito ao boicote (liberdade de expressão) VS. Propriedade",
       "Direito ao boicote (liberdade de expressão) VS. Pluralismo político",
-      "Direito ao boicote (liberdade de expressão) VS. Liberdade profissional e econômica"
+      "Direito ao boicote (liberdade de expressão) VS. Soberania"
     ],
     respostaCorretaIndex: 0,
-    explicacao: "O Tribunal Constitucional declarou que a liberdade de expressão deve ser protegida mesmo nas relações entre particulares, reconhecendo a eficácia horizontal dos direitos fundamentais (Drittwirkung). O Estado, ao aplicar normas civis, deve considerar os valores constitucionais — os direitos fundamentais são elementos estruturantes da ordem jurídica como um todo."
+    explicacao: "O Tribunal Constitucional declarou que a liberdade de expressão deve ser protegida mesmo nas relações entre particulares, reconhecendo a eficácia horizontal dos direitos fundamentais (Drittwirkung). O Estado, ao aplicar normas civis, deve considerar os valores constitucionais — os direitos fundamentais são elementos estruturantes da ordem jurídica como um todo.",
   },
 
   {
     id: 4,
-    caso: "ADI 5545 – Banco genético - A Lei n. 3.990, de 11 de outubro de 2002, do Estado do Rio de Janeiro, impunha a obrigatoriedade da coleta de material genético de mães e recém-nascidos em hospitais, casas de saúde e maternidades, públicos ou privados, com o objetivo de permitir a identificação posterior através de exame de DNA comparativo em casos de dúvida",
+    caso: "ADI 5545 – Banco genético - A Lei n. 3.990, de 11 de outubro de 2002, do Estado do Rio de Janeiro, impunha a obrigatoriedade da coleta de material genético de mães e recém-nascidos em hospitais, casas de saúde e maternidades, públicos ou privados, com o objetivo de permitir a identificação posterior através de exame de DNA comparativo em casos de dúvida. \nQuais são os direitos em conflito?",
     opcoes: [
       "Dignidade VS. Soberania",
       "Cidadania VS. Direito à família",
@@ -56,7 +56,7 @@ export const quizData = [
 
   {
     id: 5,
-    caso: "ADI 6387 a 6393 – Compartilhamento de dados na pandemia Síntese dos Fatos: Diversas Ações Diretas de Inconstitucionalidade foram ajuizadas (pelo Conselho Federal da OAB e partidos políticos como PSDB, PSB, PSOL, PCdoB) questionando a validade da Medida Provisória (MP) nº 954 de 2020, que determinava que empresas de telefonia disponibilizassem dados de usuários (nomes, números de telefone fixo e móvel, endereços) ao Instituto Brasileiro de Geografia e Estatística (IBGE). O IBGE usaria esses dados para produção de estatísticas oficiais. O contexto é o da pandemia e 'períodos de crise'",
+    caso: "ADI 6387 a 6393 – Compartilhamento de dados na pandemia: Diversas Ações Diretas de Inconstitucionalidade foram ajuizadas (pelo Conselho Federal da OAB e partidos políticos como PSDB, PSB, PSOL, PCdoB) questionando a validade da Medida Provisória (MP) nº 954 de 2020, que determinava que empresas de telefonia disponibilizassem dados de usuários (nomes, números de telefone fixo e móvel, endereços) ao Instituto Brasileiro de Geografia e Estatística (IBGE). O IBGE usaria esses dados para produção de estatísticas oficiais. O contexto é o da pandemia e 'períodos de crise'. \nQuais são os direitos em conflito?",
     opcoes: [
       "Privacidade VS. Saúde Pública",
       "Intimidade VS. Soberania Nacional",
@@ -69,7 +69,7 @@ export const quizData = [
 
   {
     id: 6,
-    caso: "ADPF 186 Síntese dos Fatos: A Arguição de Descumprimento de Preceito Fundamental (ADPF) questionou atos administrativos e normativos da Universidade de Brasília (UnB), incluindo Resolução e Edital de Vestibular, que estabeleceram um sistema temporário de cotas. Esse sistema, segunda a UnB foi implementado com o objetivo de integração Social, Étnica e Racial, considerando as estatísticas sobre a desvantagem sócio-econômica de brasileiros de cor negra comparativamente aos brancos, a Convenção sobre a Eliminação de Todas as Formas de Discriminação Racial, e o uso do fenótipo como critério.",
+    caso: "ADPF 186 Síntese dos Fatos: A Arguição de Descumprimento de Preceito Fundamental (ADPF) questionou atos administrativos e normativos da Universidade de Brasília (UnB), incluindo Resolução e Edital de Vestibular, que estabeleceram um sistema temporário de cotas. Esse sistema, segunda a UnB foi implementado com o objetivo de integração Social, Étnica e Racial, considerando as estatísticas sobre a desvantagem sócio-econômica de brasileiros de cor negra comparativamente aos brancos, a Convenção sobre a Eliminação de Todas as Formas de Discriminação Racial, e o uso do fenótipo como critério. \nQuais são os direitos em conflito?",
     opcoes: [
       "Princípio Republicano VS. Saúde",
       "Igualdade VS. Igualdade",
@@ -82,7 +82,7 @@ export const quizData = [
 
   {
     id: 7,
-    caso: "ADPF 54 – Aborto de Feto Anencéfalo Síntese dos Fatos: A Arguição de Descumprimento de Preceito Fundamental (ADPF) foi ajuizada pela Confederação Nacional dos Trabalhadores na Saúde (CNTS) questionando a interpretação dos artigos do Código Penal (124, 126 e 128, I e II) que criminalizam o aborto, no sentido de que essa criminalização alcançaria a antecipação terapêutica do parto de feto anencéfalo. O caso surgiu de decisões judiciais conflitantes sobre a legalidade desse procedimento. A ação pedia a declaração de inconstitucionalidade dessa interpretação, a fim de descriminalizar o aborto em casos de anencefalia.",
+    caso: "ADPF 54 – Aborto de Feto Anencéfalo Síntese dos Fatos: A Arguição de Descumprimento de Preceito Fundamental (ADPF) foi ajuizada pela Confederação Nacional dos Trabalhadores na Saúde (CNTS) questionando a interpretação dos artigos do Código Penal (124, 126 e 128, I e II) que criminalizam o aborto, no sentido de que essa criminalização alcançaria a antecipação terapêutica do parto de feto anencéfalo. O caso surgiu de decisões judiciais conflitantes sobre a legalidade desse procedimento. A ação pedia a declaração de inconstitucionalidade dessa interpretação, a fim de descriminalizar o aborto em casos de anencefalia. \nQuais são os direitos em conflito?",
     opcoes: [
       "Proteção à vida VS. Intimidade",
       "Proteção à vida VS. Laicidade do Estado",
